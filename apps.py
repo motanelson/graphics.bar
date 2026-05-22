@@ -70,9 +70,9 @@ for n in range(len(gfiles)):
         defs(filesa,sss)
 
 legs2="""
-        def $1_handler(self):
-            #put you code here
-            pass
+    def $1_handler(self):
+        #put you code here
+        pass
 """
 def defs1(files,value:str):
     global x
